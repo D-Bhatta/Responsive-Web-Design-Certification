@@ -1,13 +1,42 @@
-<h2>CatPhotoApp</h2>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    #cat-photo-form{
+        background-color: green;
+    }
+    .silver-background{
+        background-color: silver;
+    }
+    .thick-green-border {
+        border: 10px solid green;
+        border-radius: 50%;
+    }
+    .smaller-image{
+        width: 100px;
+    }
+    .red-text{
+        color: red;
+    }
+    p{
+        font-size: 16px;
+        font-family: monospace;
+    }
+    h2{
+        font-family: Lobster, monospace;
+    }
+    [type="checkbox"]{
+        margin: 10px 0px 15px 0px;
+    }
+</style>
+<h2 class="red-text">CatPhotoApp</h2>
 <main>
-    <p>View more <a href="#">cat photos</a></p>
+    <p class="red-text">Click here to view more <a href="#">cat photos</a></p>
 
     <a href="#footer">Jump to Bottom</a>
 
-    <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Orange tabby kitten laying down while a dark grey cat watches over it"></a>
+    <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="Orange tabby kitten laying down while a dark grey cat watches over it"></a>
 
 
-    <div>
+    <div class="silver-background">
         <p>Top 3 things cats hate:</p>
         <ol>
             <li>
@@ -34,7 +63,7 @@
             </li>
         </ul>
     </div>
-    <form action="/submit-cat-photo">
+    <form action="/submit-cat-photo" id="cat-photo-form">
         
         
         <label for="indoor">
