@@ -12,8 +12,8 @@ This repository will be used to maintain all the code for the Responsive Web Des
 
 ## Chapters
 
-  1. - [ ] Basic HTML and HTML5
-  2. - [ ] Basic CSS
+  1. - [x] Basic HTML and HTML5
+  2. - [x] Basic CSS
   3. - [ ] Applied Visual Design
   4. - [ ] Applied Accessibility
   5. - [ ] Responsive Web Design Principles
